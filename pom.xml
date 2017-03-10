@@ -8,32 +8,7 @@
   <name>helloworld</name>
   <url>http://maven.apache.org</url>
   <dependencies>
-  <dependency>
-      <groupId>joda-time</groupId>
-      <artifactId>joda-time</artifactId>
-      <version>2.2</version>
-    </dependency>
-</dependencies>
-<build>
-          <plugins>
-            <plugin>
-              <artifactId>maven-assembly-plugin</artifactId>
-              <configuration>
-                <archive>
-                  <manifest>
-                    <mainClass>org.joda.time.LocalTime</mainClass>
-                  </manifest>
-                </archive>
-                <descriptorRefs>
-                  <descriptorRef>jar-with-dependencies</descriptorRef>
-
-                </descriptorRefs>
-              </configuration>
-            </plugin>
-          </plugins>
-        </build>
-</project>
-    <dependency>
+ <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>3.8.1</version>
